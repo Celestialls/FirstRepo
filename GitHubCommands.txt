@@ -10,14 +10,21 @@
 09. git branch
 10. git branch <newBranchName>
 11. git checkout <branchName>
+12. git checkout -b <branchName> //10. & 11.
 12. git merge <branchName> //from main
+https://videotutorials.notion.site/Introduction-to-Git-ac396a0697704709a12b6a0e545db049#5b7377e4b75a4a32bfe992c47b3697e7
 
 
 ::GITHUB BASIC COMMANDS::
 00. Create a repo on https://github.com
 01. git remote -v
-02. git  git remote add <remoteName> https://github.com/<username>/<repoName>.git
+02. git remote add <remoteName> <github-repo-link> //Done once, it creates the <remoteName> once.
 03. git git push -u <remoteName> main
+03. git git pull <remoteName> main
+04. git checkout -b <branchName> //Creates and enter new branch
+05. git git push -u <remoteName> <branchName> //Trying to push from NOT-MAIN Branch. Creates the branch on GitHub.
+0.6 git clone <github-repo-link> //⚠️ GET OUT OF EXISTING REPO FIRST
+https://videotutorials.notion.site/Introduction-to-GitHub-202af6f64bbd4299b15f238dcd09d2a7
 
 
 ::GITHUB PUSH ERROR COMMANDS::
