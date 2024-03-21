@@ -1,9 +1,30 @@
-git fetch myOrigin main
-git merge myOrigin main
+::GIT BASIC COMMANDS::
+01. git --version
+02. git init
+03. git status
+04. git add <file1Name.extension> <file2Name.extension>
+05. git add .
+06. git commit -m <"commit comment">
+07. git log
+08. git checkout <commitID>
+09. git branch
+10. git branch <newBranchName>
+11. git checkout <branchName>
+12. git merge <branchName> //from main
 
-git fetch myOrigin main:tmp
-git rebase tmp
-git push myOrigin HEAD:main
-git branch -D tmp
 
+::GITHUB BASIC COMMANDS::
+00. Create a repo on https://github.com
+01. git remote -v
+02. git  git remote add <remoteName> https://github.com/<username>/<repoName>.git
+03. git git push -u <remoteName> main
+
+
+::GITHUB PUSH ERROR COMMANDS::
+01. git fetch <remoteName> main
+02. git merge <remoteName> main
+03. git fetch <remoteName> main:tmp
+04. git rebase tmp
+05. git push <remoteName> HEAD:main
+06. git branch -D tmp
 https://stackoverflow.com/questions/28429819/rejected-master-master-fetch-first
