@@ -1,9 +1,9 @@
 git fetch myOrigin main
 git merge myOrigin main
 
-
-
 git fetch myOrigin main:tmp
 git rebase tmp
 git push myOrigin HEAD:main
 git branch -D tmp
+
+https://stackoverflow.com/questions/28429819/rejected-master-master-fetch-first
